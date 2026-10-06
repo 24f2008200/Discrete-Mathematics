@@ -46,17 +46,17 @@ If a task has:
 
 then
 
-\[
+$$
 \boxed{n_1n_2\cdots n_k}
-\]
+$$
 
 Example:
 
 3 letters followed by 2 digits, repetition allowed:
 
-\[
+$$
 26^3 10^2
-\]
+$$
 
 ---
 
@@ -64,9 +64,9 @@ Example:
 
 If choices are mutually exclusive:
 
-\[
+$$
 \boxed{n_1+n_2+\cdots+n_k}
-\]
+$$
 
 ---
 
@@ -74,17 +74,17 @@ If choices are mutually exclusive:
 
 Order matters:
 
-\[
+$$
 \boxed{{}^nP_r=\frac{n!}{(n-r)!}}
-\]
+$$
 
 Example:
 
 Choose and arrange 5 speakers from 16:
 
-\[
+$$
 {}^{16}P_5
-\]
+$$
 
 This exact distinction appears repeatedly in Assignment 1. DM
 
@@ -94,15 +94,15 @@ This exact distinction appears repeatedly in Assignment 1. DM
 
 Order does **not** matter:
 
-\[
+$$
 \boxed{{n\choose r}=\frac{n!}{r!(n-r)!}}
-\]
+$$
 
 Useful relationship:
 
-\[
+$$
 \boxed{{}^nP_r={n\choose r}r!}
-\]
+$$
 
 ### Exam trick
 
@@ -119,29 +119,29 @@ Ask:
 
 ### All \(n\) distinct objects in a line
 
-\[
+$$
 \boxed{n!}
-\]
+$$
 
 ### Two specific objects must be together
 
 Treat them as one block:
 
-\[
+$$
 \boxed{2(n-1)!}
-\]
+$$
 
 For \(n=7\):
 
-\[
+$$
 2(6!)
-\]
+$$
 
 ### Two specific objects must NOT be together
 
-\[
+$$
 \boxed{n!-2(n-1)!}
-\]
+$$
 
 This exact "total minus bad arrangements" idea occurs in Assignment 1. DM
 
@@ -151,17 +151,17 @@ This exact "total minus bad arrangements" idea occurs in Assignment 1. DM
 
 For \(n\) distinct objects around a circle, rotations considered identical:
 
-\[
+$$
 \boxed{(n-1)!}
-\]
+$$
 
 If reflections are also considered identical, the usual necklace/bracelet treatment changes, so check the wording.
 
 For 8 robots:
 
-\[
+$$
 7!
-\]
+$$
 
 ---
 
@@ -169,15 +169,15 @@ For 8 robots:
 
 If there are \(n\) objects with repetitions
 
-\[
+$$
 n_1,n_2,\ldots,n_k
-\]
+$$
 
 then distinct arrangements:
 
-\[
+$$
 \boxed{\frac{n!}{n_1!n_2!\cdots n_k!}}
-\]
+$$
 
 Example: LEVEL
 
@@ -185,9 +185,9 @@ Example: LEVEL
 - E appears 2 times
 - V appears once
 
-\[
+$$
 \frac{5!}{2!2!}=30
-\]
+$$
 
 Exactly the type used in the assignment. DM
 
@@ -197,13 +197,13 @@ Exactly the type used in the assignment. DM
 
 ## Two sets
 
-\[
+$$
 \boxed{|A\cup B|=|A|+|B|-|A\cap B|}
-\]
+$$
 
 ## Three sets
 
-\[
+$$
 \boxed{
 |A\cup B\cup C|
 =
@@ -211,13 +211,13 @@ Exactly the type used in the assignment. DM
 -|A\cap B|-|A\cap C|-|B\cap C|
 +|A\cap B\cap C|
 }
-\]
+$$
 
 ### Memory pattern
 
-\[
+$$
 \boxed{+\quad-\quad+}
-\]
+$$
 
 Singles → add
 
@@ -231,32 +231,32 @@ The assignments explicitly test this repeatedly. DM
 
 ## Exactly two of three sets
 
-\[
+$$
 \boxed{
 \text{Exactly 2}
 =
 |A\cap B|+|A\cap C|+|B\cap C|
 -3|A\cap B\cap C|
 }
-\]
+$$
 
 ## Only \(A\)
 
-\[
+$$
 \boxed{
 |A\text{ only}|
 =
 |A|-|A\cap B|-|A\cap C|+|A\cap B\cap C|
 }
-\]
+$$
 
 ## None
 
-\[
+$$
 \boxed{
 |\text{None}|=|U|-|A\cup B\cup C|
 }
-\]
+$$
 
 ---
 
@@ -264,19 +264,19 @@ The assignments explicitly test this repeatedly. DM
 
 ### Difference
 
-\[
+$$
 \boxed{A-B=A\cap B'}
-\]
+$$
 
 ### De Morgan's laws
 
-\[
+$$
 \boxed{(A\cup B)'=A'\cap B'}
-\]
+$$
 
-\[
+$$
 \boxed{(A\cap B)'=A'\cup B'}
-\]
+$$
 
 Very important. Assignment 2 directly tests these. DM
 
@@ -284,15 +284,15 @@ Very important. Assignment 2 directly tests these. DM
 
 If
 
-\[
+$$
 A\subseteq B
-\]
+$$
 
 then
 
-\[
+$$
 \boxed{B'\subseteq A'}
-\]
+$$
 
 Notice the direction **reverses**.
 
@@ -302,29 +302,29 @@ Notice the direction **reverses**.
 
 For a set containing \(n\) elements:
 
-\[
+$$
 \boxed{2^n}
-\]
+$$
 
 Non-empty subsets:
 
-\[
+$$
 \boxed{2^n-1}
-\]
+$$
 
 Example:
 
 9 mentors:
 
-\[
+$$
 2^9=512
-\]
+$$
 
 non-empty:
 
-\[
+$$
 2^9-1=511
-\]
+$$
 
 ---
 
@@ -346,29 +346,29 @@ Assignment 3 heavily tests translation between English rules and these logical f
 
 ## The most important implication fact
 
-\[
+$$
 \boxed{P\to Q\equiv \neg P\lor Q}
-\]
+$$
 
 And:
 
-\[
+$$
 \boxed{P\to Q\equiv \neg Q\to\neg P}
-\]
+$$
 
 The second is the **contrapositive**.
 
 ### Don't confuse:
 
-\[
+$$
 P\to Q
-\]
+$$
 
 with
 
-\[
+$$
 Q\to P
-\]
+$$
 
 The latter is the **converse**, and is not generally equivalent.
 
@@ -385,9 +385,9 @@ The latter is the **converse**, and is not generally equivalent.
 
 Only one situation makes implication false:
 
-\[
+$$
 \boxed{P=T,\ Q=F}
-\]
+$$
 
 This "false antecedent makes implication true" was explicitly tested. DM
 
@@ -399,17 +399,17 @@ This "false antecedent makes implication true" was explicitly tested. DM
 
 Always true.
 
-\[
+$$
 \boxed{P\lor\neg P}
-\]
+$$
 
 ### Contradiction
 
 Always false.
 
-\[
+$$
 \boxed{P\land\neg P}
-\]
+$$
 
 ### Contingency
 
@@ -417,9 +417,9 @@ Sometimes true, sometimes false.
 
 Example:
 
-\[
+$$
 P\to Q
-\]
+$$
 
 The assignments explicitly distinguish these three categories. DM
 
@@ -429,51 +429,51 @@ The assignments explicitly distinguish these three categories. DM
 
 ### Modus Ponens
 
-\[
+$$
 P\to Q
-\]
+$$
 
-\[
+$$
 P
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{Q}
-\]
+$$
 
 ### Modus Tollens
 
-\[
+$$
 P\to Q
-\]
+$$
 
-\[
+$$
 \neg Q
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{\neg P}
-\]
+$$
 
 ### Disjunctive syllogism
 
-\[
+$$
 P\lor Q
-\]
+$$
 
-\[
+$$
 \neg P
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{Q}
-\]
+$$
 
 Assignment 3 directly tests Modus Ponens and Modus Tollens. DM
 
@@ -483,33 +483,33 @@ Assignment 3 directly tests Modus Ponens and Modus Tollens. DM
 
 A relation on \(A\) is a subset of:
 
-\[
+$$
 \boxed{A\times A}
-\]
+$$
 
 If
 
-\[
+$$
 |A|=n
-\]
+$$
 
 then
 
-\[
+$$
 |A\times A|=n^2
-\]
+$$
 
 Therefore number of possible binary relations:
 
-\[
+$$
 \boxed{2^{n^2}}
-\]
+$$
 
 For a 4-element set:
 
-\[
+$$
 2^{16}=65536
-\]
+$$
 
 The assignment asks exactly this kind of question. DM
 
@@ -521,49 +521,49 @@ The assignment asks exactly this kind of question. DM
 
 Every element relates to itself:
 
-\[
+$$
 \boxed{(a,a)\in R\quad\forall a}
-\]
+$$
 
 Matrix:
 
-\[
+$$
 \boxed{\text{all diagonal entries are 1}}
-\]
+$$
 
 ### Symmetric
 
-\[
+$$
 \boxed{aRb\Rightarrow bRa}
-\]
+$$
 
 Matrix:
 
-\[
+$$
 \boxed{M=M^T}
-\]
+$$
 
 ### Antisymmetric
 
 If
 
-\[
+$$
 aRb\text{ and }bRa
-\]
+$$
 
 then
 
-\[
+$$
 \boxed{a=b}
-\]
+$$
 
 For distinct \(a,b\), you cannot have both directions.
 
 ### Transitive
 
-\[
+$$
 aRb,\ bRc\Rightarrow aRc
-\]
+$$
 
 ---
 
@@ -571,9 +571,9 @@ aRb,\ bRc\Rightarrow aRc
 
 Must be:
 
-\[
+$$
 \boxed{\text{Reflexive + Symmetric + Transitive}}
-\]
+$$
 
 Think:
 
@@ -590,17 +590,17 @@ These naturally create equivalence classes. DM
 
 ## Equivalence class
 
-\[
+$$
 \boxed{[a]=\{x\in A:xRa\}}
-\]
+$$
 
 Equivalence relations correspond to **partitions**.
 
 ### Very important relationship
 
-\[
+$$
 \boxed{\text{Equivalence relation}\longleftrightarrow\text{Partition}}
-\]
+$$
 
 ---
 
@@ -608,9 +608,9 @@ Equivalence relations correspond to **partitions**.
 
 Must be:
 
-\[
+$$
 \boxed{\text{Reflexive + Antisymmetric + Transitive}}
-\]
+$$
 
 Memory trick:
 
@@ -627,9 +627,9 @@ The badge-dependency relation in Assignment 4 is explicitly a partial order. DM
 
 A function
 
-\[
+$$
 f:A\to B
-\]
+$$
 
 means:
 
@@ -645,9 +645,9 @@ Every input has exactly one output.
 
 Different inputs produce different outputs:
 
-\[
+$$
 \boxed{f(a)=f(b)\Rightarrow a=b}
-\]
+$$
 
 Think:
 
@@ -659,9 +659,9 @@ Think:
 
 Every element of the codomain gets hit:
 
-\[
+$$
 \boxed{\forall b\in B,\exists a\in A:f(a)=b}
-\]
+$$
 
 Think:
 
@@ -673,9 +673,9 @@ Think:
 
 Both:
 
-\[
+$$
 \boxed{\text{Injective + Surjective}}
-\]
+$$
 
 A function has an inverse exactly when it is bijective.
 
@@ -687,43 +687,43 @@ Assignment 5 repeatedly tests this distinction. DM
 
 If
 
-\[
+$$
 f:A\to B,\quad g:B\to C
-\]
+$$
 
 then:
 
-\[
+$$
 \boxed{g\circ f:A\to C}
-\]
+$$
 
 and
 
-\[
+$$
 \boxed{(g\circ f)(x)=g(f(x))}
-\]
+$$
 
 **Read from right to left.**
 
 If
 
-\[
+$$
 f:\text{Learner}\to\text{Path}
-\]
+$$
 
-\[
+$$
 g:\text{Path}\to\text{Dashboard}
-\]
+$$
 
-\[
+$$
 h:\text{Dashboard}\to\text{Status}
-\]
+$$
 
 then:
 
-\[
+$$
 \boxed{h\circ g\circ f:\text{Learner}\to\text{Status}}
-\]
+$$
 
 ---
 
@@ -733,27 +733,27 @@ then:
 
 Number of non-negative integer solutions to
 
-\[
+$$
 x_1+x_2+\cdots+x_k=n
-\]
+$$
 
 is
 
-\[
+$$
 \boxed{{n+k-1\choose k-1}}
-\]
+$$
 
 Example:
 
-\[
+$$
 x+y+z=12
-\]
+$$
 
 gives
 
-\[
+$$
 {14\choose2}
-\]
+$$
 
 ---
 
@@ -761,15 +761,15 @@ gives
 
 For
 
-\[
+$$
 x_1+\cdots+x_k=n,\qquad x_i\ge1
-\]
+$$
 
 number:
 
-\[
+$$
 \boxed{{n-1\choose k-1}}
-\]
+$$
 
 ---
 
@@ -777,21 +777,21 @@ number:
 
 For restrictions such as:
 
-\[
+$$
 x\le4
-\]
+$$
 
 count unrestricted solutions and subtract violations:
 
-\[
+$$
 x\ge5
-\]
+$$
 
 Set:
 
-\[
+$$
 x'=x-5
-\]
+$$
 
 Then solve again.
 
@@ -807,46 +807,46 @@ A derangement is a permutation where **nobody gets their original position**.
 
 Notation:
 
-\[
+$$
 \boxed{D_n}
-\]
+$$
 
 Formula:
 
-\[
+$$
 \boxed{
 D_n=n!\sum_{k=0}^{n}\frac{(-1)^k}{k!}
 }
-\]
+$$
 
 Equivalent:
 
-\[
+$$
 D_n
 =
 n!
 \left(
 1-\frac1{1!}+\frac1{2!}-\cdots+\frac{(-1)^n}{n!}
 \right)
-\]
+$$
 
 Important values:
 
-\[
+$$
 D_1=0
-\]
+$$
 
-\[
+$$
 D_2=1
-\]
+$$
 
-\[
+$$
 D_3=2
-\]
+$$
 
-\[
+$$
 D_4=9
-\]
+$$
 
 The assignment explicitly asks \(D_4=9\). DM
 
@@ -856,14 +856,14 @@ The assignment explicitly asks \(D_4=9\). DM
 
 Number of onto functions from an \(m\)-element set to an \(n\)-element set:
 
-\[
+$$
 \boxed{
 \sum_{k=0}^{n}
 (-1)^k
 {n\choose k}
 (n-k)^m
 }
-\]
+$$
 
 This is basically **inclusion-exclusion applied to missing outputs**.
 
@@ -871,17 +871,17 @@ This is basically **inclusion-exclusion applied to missing outputs**.
 
 # 20. Catalan Numbers
 
-\[
+$$
 \boxed{
 C_n=\frac{1}{n+1}{2n\choose n}
 }
-\]
+$$
 
 First few:
 
-\[
+$$
 1,1,2,5,14,42,132,\ldots
-\]
+$$
 
 Your assignments use Catalan numbers for:
 
@@ -896,37 +896,37 @@ Examples:
 
 From \((0,0)\) to \((n,n)\), unrestricted:
 
-\[
+$$
 \boxed{{2n\choose n}}
-\]
+$$
 
 Restricted to one side of the diagonal:
 
-\[
+$$
 \boxed{C_n}
-\]
+$$
 
 ### Polygon triangulation
 
 For an \(n\)-gon:
 
-\[
+$$
 \boxed{C_{n-2}}
-\]
+$$
 
 Thus a hexagon:
 
-\[
+$$
 C_4=14
-\]
+$$
 
 ### Dyck paths
 
 Balanced \(n\) pickup and \(n\) drop operations with drops never exceeding pickups:
 
-\[
+$$
 \boxed{C_n}
-\]
+$$
 
 These are explicitly connected in Assignment 1. DM
 
@@ -952,15 +952,15 @@ The assignment deliberately tests the differences between walk, path and cycle. 
 
 # 22. Handshaking Lemma
 
-\[
+$$
 \boxed{\sum_{v\in V}\deg(v)=2|E|}
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{|E|=\frac{\sum\deg(v)}2}
-\]
+$$
 
 And:
 
@@ -974,15 +974,15 @@ This is one of your **must-memorize formulas**. DM
 
 For \(n\) vertices:
 
-\[
+$$
 \boxed{|E(K_n)|={n\choose2}=\frac{n(n-1)}2}
-\]
+$$
 
 Maximum degree:
 
-\[
+$$
 \boxed{n-1}
-\]
+$$
 
 ---
 
@@ -990,21 +990,21 @@ Maximum degree:
 
 For a simple graph with \(n\) vertices:
 
-\[
+$$
 \boxed{|E(G')|={n\choose2}-|E(G)|}
-\]
+$$
 
 Example:
 
 7 vertices, 10 edges:
 
-\[
+$$
 {7\choose2}-10
 =
 21-10
 =
 11
-\]
+$$
 
 Exactly the style used in Assignment 8. DM
 
@@ -1024,15 +1024,15 @@ Eulerian circuit:
 
 For a connected graph:
 
-\[
+$$
 \boxed{\text{All vertices have even degree}}
-\]
+$$
 
 Eulerian trail but not circuit:
 
-\[
+$$
 \boxed{\text{Exactly two odd-degree vertices}}
-\]
+$$
 
 ### Hamiltonian
 
@@ -1070,19 +1070,19 @@ A graph is bipartite if vertices can be divided into two groups such that every 
 
 Critical theorem:
 
-\[
+$$
 \boxed{
 G\text{ is bipartite}
 \iff
 G\text{ contains no odd cycle}
 }
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{\text{Odd cycle}\Rightarrow\text{not bipartite}}
-\]
+$$
 
 This appears directly in Assignment 8. DM
 
@@ -1094,27 +1094,27 @@ A proper colouring means adjacent vertices receive different colours.
 
 The minimum number of colours required is the **chromatic number**:
 
-\[
+$$
 \boxed{\chi(G)}
-\]
+$$
 
 For complete graph:
 
-\[
+$$
 \boxed{\chi(K_n)=n}
-\]
+$$
 
 For a nontrivial bipartite graph:
 
-\[
+$$
 \boxed{\chi(G)=2}
-\]
+$$
 
 For a triangle:
 
-\[
+$$
 \boxed{\chi(K_3)=3}
-\]
+$$
 
 ---
 
@@ -1122,26 +1122,26 @@ For a triangle:
 
 For a simple undirected graph:
 
-\[
+$$
 \boxed{A_{ij}=1}
-\]
+$$
 
 if vertices \(i,j\) are adjacent.
 
 Otherwise:
 
-\[
+$$
 A_{ij}=0
-\]
+$$
 
 Properties:
 
 - diagonal entries = 0
 - matrix is symmetric
 
-\[
+$$
 \boxed{A=A^T}
-\]
+$$
 
 The assignment directly tests both. DM
 
@@ -1159,9 +1159,9 @@ Necessary conditions include:
 
 But:
 
-\[
+$$
 \boxed{\text{Same degree sequence does NOT guarantee isomorphism}}
-\]
+$$
 
 This is an important MCQ trap from Assignment 8. DM
 
@@ -1173,35 +1173,35 @@ This deserves special attention because it looks mysterious at first, but the as
 
 ### Take 0 or 1
 
-\[
+$$
 \boxed{1+x}
-\]
+$$
 
 ### Take any number
 
-\[
+$$
 \boxed{1+x+x^2+x^3+\cdots=\frac1{1-x}}
-\]
+$$
 
 ### Take an even number
 
-\[
+$$
 \boxed{1+x^2+x^4+\cdots=\frac1{1-x^2}}
-\]
+$$
 
 ### Main rule
 
 If
 
-\[
+$$
 F(x)=\sum a_nx^n
-\]
+$$
 
 then:
 
-\[
+$$
 \boxed{a_n=[x^n]F(x)}
-\]
+$$
 
 That means:
 
@@ -1215,9 +1215,9 @@ This is exactly how Assignment 9 introduces generating functions. DM
 
 If \(r\) identical units are distributed among \(k\) types with unlimited repetition:
 
-\[
+$$
 \boxed{{r+k-1\choose k-1}}
-\]
+$$
 
 This is the same formula encountered earlier through integer solutions.
 
@@ -1229,9 +1229,9 @@ A recurrence defines a term using previous terms.
 
 Example:
 
-\[
+$$
 \boxed{a_n=(1+r)a_{n-1}}
-\]
+$$
 
 for compound growth.
 
@@ -1250,27 +1250,27 @@ Assignment 11 begins exactly with this idea. DM
 
 # 33. Fibonacci
 
-\[
+$$
 \boxed{F_n=F_{n-1}+F_{n-2}}
-\]
+$$
 
 with:
 
-\[
+$$
 F_1=F_2=1
-\]
+$$
 
 Sequence:
 
-\[
+$$
 1,1,2,3,5,8,13,21,\ldots
-\]
+$$
 
 Thus:
 
-\[
+$$
 F_7=13
-\]
+$$
 
 ---
 
@@ -1278,25 +1278,25 @@ F_7=13
 
 If you can climb either 1 or 2 steps:
 
-\[
+$$
 \boxed{f(n)=f(n-1)+f(n-2)}
-\]
+$$
 
 With:
 
-\[
+$$
 f(1)=1,\quad f(2)=2
-\]
+$$
 
 Then:
 
-\[
+$$
 f(3)=3
-\]
+$$
 
-\[
+$$
 f(4)=5
-\]
+$$
 
 ---
 
@@ -1304,41 +1304,41 @@ f(4)=5
 
 For:
 
-\[
+$$
 a_n=c_1a_{n-1}+c_2a_{n-2}
-\]
+$$
 
 assume:
 
-\[
+$$
 a_n=x^n
-\]
+$$
 
 Then:
 
-\[
+$$
 \boxed{x^2-c_1x-c_2=0}
-\]
+$$
 
 If roots are \(r_1,r_2\):
 
-\[
+$$
 \boxed{a_n=Ar_1^n+Br_2^n}
-\]
+$$
 
 Constants \(A,B\) come from the initial conditions.
 
 For Fibonacci:
 
-\[
+$$
 a_n=a_{n-1}+a_{n-2}
-\]
+$$
 
 so:
 
-\[
+$$
 \boxed{x^2-x-1=0}
-\]
+$$
 
 The characteristic-equation method is explicitly included in Assignment 11. DM
 
@@ -1348,35 +1348,35 @@ The characteristic-equation method is explicitly included in Assignment 11. DM
 
 ### Tower of Hanoi
 
-\[
+$$
 T(n)=2T(n-1)+1
-\]
+$$
 
 Solution:
 
-\[
+$$
 \boxed{T(n)=2^n-1}
-\]
+$$
 
 ### Binary search
 
-\[
+$$
 T(n)=T(n/2)+1
-\]
+$$
 
-\[
+$$
 \boxed{T(n)=O(\log n)}
-\]
+$$
 
 ### Merge sort
 
-\[
+$$
 T(n)=2T(n/2)+n
-\]
+$$
 
-\[
+$$
 \boxed{T(n)=O(n\log n)}
-\]
+$$
 
 These three are explicitly compared in Assignment 11. DM
 
@@ -1386,7 +1386,7 @@ These three are explicitly compared in Assignment 11. DM
 
 Memorize this ordering:
 
-\[
+$$
 \boxed{
 \log n
 <
@@ -1400,15 +1400,15 @@ n^2
 <
 n!
 }
-\]
+$$
 
 For large \(n\).
 
 So:
 
-\[
+$$
 n! > 2^n
-\]
+$$
 
 eventually.
 
@@ -1420,15 +1420,15 @@ Keep the dominant term.
 
 Example:
 
-\[
+$$
 3n^2+5n+2
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{O(n^2)}
-\]
+$$
 
 Not \(O(3n^2)\) in simplified form.
 
@@ -1440,43 +1440,43 @@ Assignment 12 introduces this topic. DM
 
 ### Complete graph
 
-\[
+$$
 \boxed{
 P(K_n,k)=k(k-1)(k-2)\cdots(k-n+1)
 }
-\]
+$$
 
 ### Path with \(n\) vertices
 
-\[
+$$
 \boxed{
 P(P_n,k)=k(k-1)^{n-1}
 }
-\]
+$$
 
 ### Cycle with \(n\) vertices
 
-\[
+$$
 \boxed{
 P(C_n,k)
 =
 (k-1)^n+(-1)^n(k-1)
 }
-\]
+$$
 
 ### Chromatic number
 
-\[
+$$
 \boxed{
 \chi(G)=\min\{k:P(G,k)>0\}
 }
-\]
+$$
 
 For triangle:
 
-\[
+$$
 \chi(K_3)=3
-\]
+$$
 
 ---
 
@@ -1488,31 +1488,31 @@ A partition of \(n\):
 
 For 4:
 
-\[
+$$
 4
-\]
+$$
 
-\[
+$$
 3+1
-\]
+$$
 
-\[
+$$
 2+2
-\]
+$$
 
-\[
+$$
 2+1+1
-\]
+$$
 
-\[
+$$
 1+1+1+1
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{p(4)=5}
-\]
+$$
 
 ### Distinct-part partitions
 
@@ -1520,15 +1520,15 @@ No repeated parts.
 
 For 4:
 
-\[
+$$
 4,\quad3+1
-\]
+$$
 
 so:
 
-\[
+$$
 \boxed{2}
-\]
+$$
 
 ### Odd-part partitions
 
@@ -1536,29 +1536,29 @@ Only odd numbers.
 
 For 4:
 
-\[
+$$
 3+1
-\]
+$$
 
-\[
+$$
 1+1+1+1
-\]
+$$
 
 so:
 
-\[
+$$
 \boxed{2}
-\]
+$$
 
 This illustrates Euler's identity:
 
-\[
+$$
 \boxed{
 \text{partitions into distinct parts}
 =
 \text{partitions into odd parts}
 }
-\]
+$$
 
 for every \(n\). DM
 
@@ -1568,28 +1568,28 @@ for every \(n\). DM
 
 All partitions:
 
-\[
+$$
 \boxed{
 \prod_{k=1}^{\infty}\frac1{1-x^k}
 }
-\]
+$$
 
 Distinct parts:
 
-\[
+$$
 \boxed{
 \prod_{k=1}^{\infty}(1+x^k)
 }
-\]
+$$
 
 Odd parts:
 
-\[
+$$
 \boxed{
 \prod_{\substack{k\ge1\\k\text{ odd}}}
 \frac1{1-x^k}
 }
-\]
+$$
 
 ---
 
@@ -1599,31 +1599,31 @@ A group \(G\) with operation \(*\) satisfies four axioms:
 
 ### 1. Closure
 
-\[
+$$
 a*b\in G
-\]
+$$
 
 ### 2. Associativity
 
-\[
+$$
 (a*b)*c=a*(b*c)
-\]
+$$
 
 ### 3. Identity
 
 There exists \(e\):
 
-\[
+$$
 \boxed{a*e=e*a=a}
-\]
+$$
 
 ### 4. Inverse
 
 For every \(a\):
 
-\[
+$$
 \boxed{a*a^{-1}=a^{-1}*a=e}
-\]
+$$
 
 Assignment 12 tests these definitions directly. DM
 
@@ -1633,39 +1633,39 @@ Assignment 12 tests these definitions directly. DM
 
 A group has:
 
-\[
+$$
 \boxed{\text{exactly one identity element}}
-\]
+$$
 
 ---
 
 ## Integer addition
 
-\[
+$$
 (\mathbb Z,+)
-\]
+$$
 
 is a group.
 
 Identity:
 
-\[
+$$
 \boxed{0}
-\]
+$$
 
 Inverse of \(a\):
 
-\[
+$$
 \boxed{-a}
-\]
+$$
 
 ---
 
 ## Integer multiplication
 
-\[
+$$
 (\mathbb Z,\times)
-\]
+$$
 
 is **not** a group because, for example, 2 has no integer multiplicative inverse.
 
@@ -1675,9 +1675,9 @@ is **not** a group because, for example, 2 has no integer multiplicative inverse
 
 A subgroup is:
 
-\[
+$$
 \boxed{\text{a subset that is itself a group under the same operation}}
-\]
+$$
 
 ---
 
@@ -1685,23 +1685,23 @@ A subgroup is:
 
 For a finite group \(G\):
 
-\[
+$$
 \boxed{|H|\mid |G|}
-\]
+$$
 
 for every subgroup \(H\).
 
 Therefore, if:
 
-\[
+$$
 |G|=12
-\]
+$$
 
 possible subgroup orders are:
 
-\[
+$$
 \boxed{1,2,3,4,6,12}
-\]
+$$
 
 So 5 cannot be the order of a subgroup.
 
@@ -1780,21 +1780,21 @@ D. \(720\)
 ### Q5
 A university has:
 
-\[
+$$
 |A|=50,\quad |B|=40,\quad |C|=30
-\]
+$$
 
-\[
+$$
 |A\cap B|=15,\quad
 |A\cap C|=10,\quad
 |B\cap C|=8
-\]
+$$
 
 and
 
-\[
+$$
 |A\cap B\cap C|=5.
-\]
+$$
 
 How many students belong to at least one set?
 
@@ -1815,9 +1815,9 @@ D. \(128\)
 ### Q7
 Which is logically equivalent to
 
-\[
+$$
 P\to Q?
-\]
+$$
 
 A. \(P\land Q\)  
 B. \(\neg P\lor Q\)  
@@ -1829,9 +1829,9 @@ D. \(\neg P\land Q\)
 ### Q8
 What is the contrapositive of
 
-\[
+$$
 P\to Q?
-\]
+$$
 
 A. \(Q\to P\)  
 B. \(\neg P\to\neg Q\)  
@@ -1853,15 +1853,15 @@ D. \(P\land Q\)
 ### Q10
 Given:
 
-\[
+$$
 P\to Q
-\]
+$$
 
 and
 
-\[
+$$
 \neg Q,
-\]
+$$
 
 what follows?
 
@@ -1877,9 +1877,9 @@ D. Nothing
 ### Q11
 A relation \(R\) on \(A\) satisfies:
 
-\[
+$$
 aRa
-\]
+$$
 
 for every \(a\in A\).
 
@@ -1915,9 +1915,9 @@ D. Symmetric relation
 ### Q14
 Let
 
-\[
+$$
 f:A\to B
-\]
+$$
 
 where \(|A|=5\) and \(|B|=3\).
 
@@ -1942,18 +1942,18 @@ D. \(A=B\)
 ### Q16
 How many non-negative integer solutions exist for
 
-\[
+$$
 x+y+z=10?
-\]
+$$
 
 ---
 
 ### Q17
 How many positive integer solutions exist for
 
-\[
+$$
 x+y+z=10?
-\]
+$$
 
 ---
 
@@ -1970,9 +1970,9 @@ How many ways can 3 distinct duties be assigned to 2 judges such that **both jud
 ### Q20
 What is
 
-\[
+$$
 C_4
-\]
+$$
 
 where \(C_n\) is the Catalan number?
 
@@ -1982,15 +1982,15 @@ where \(C_n\) is the Catalan number?
 
 Consider a graph with:
 
-\[
+$$
 V=\{A,B,C,D,E\}
-\]
+$$
 
 and edges:
 
-\[
+$$
 AB,BC,CD,DA,CE.
-\]
+$$
 
 ### Q21
 What is the degree of \(C\)?
@@ -2067,9 +2067,9 @@ D. \(\frac1{1-x^2}\)
 ### Q28
 For
 
-\[
+$$
 a_n=a_{n-1}+a_{n-2},
-\]
+$$
 
 what is the characteristic equation?
 
@@ -2083,9 +2083,9 @@ D. \(x-1=0\)
 ### Q29
 What is the asymptotic complexity of merge sort?
 
-\[
+$$
 T(n)=2T(n/2)+n
-\]
+$$
 
 A. \(O(n)\)  
 B. \(O(\log n)\)  
@@ -2159,27 +2159,27 @@ Do 15–20 problems.
 
 Especially:
 
-\[
+$$
 P\to Q,\quad
 \text{contrapositive},\quad
 \text{De Morgan},\quad
 \text{tautology}
-\]
+$$
 
 ### Day 3
 **Relations + equivalence relations + partial orders + functions**
 
 Make sure you can instantly distinguish:
 
-\[
+$$
 \boxed{RST}
-\]
+$$
 
 from
 
-\[
+$$
 \boxed{RAT}
-\]
+$$
 
 ### Day 4
 **Graph theory**
@@ -2210,23 +2210,23 @@ These are formula-heavy, so build a one-page mental toolbox.
 
 Especially:
 
-\[
+$$
 2^n-1
-\]
+$$
 
-\[
+$$
 O(\log n)
-\]
+$$
 
-\[
+$$
 O(n\log n)
-\]
+$$
 
 and
 
-\[
+$$
 \log n<n<n\log n<n^2<2^n<n!
-\]
+$$
 
 ### Day 7
 **Full mock exam**
