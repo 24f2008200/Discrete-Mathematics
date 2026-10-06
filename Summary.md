@@ -205,8 +205,7 @@ $$
 
 $$
 \boxed{
-|A\cup B\cup C|
-=
+|A\cup B\cup C|=
 |A|+|B|+|C|
 -|A\cap B|-|A\cap C|-|B\cap C|
 +|A\cap B\cap C|
@@ -233,8 +232,7 @@ The assignments explicitly test this repeatedly. DM
 
 $$
 \boxed{
-\text{Exactly 2}
-=
+\text{Exactly 2}=
 |A\cap B|+|A\cap C|+|B\cap C|
 -3|A\cap B\cap C|
 }
@@ -244,8 +242,7 @@ $$
 
 $$
 \boxed{
-|A\text{ only}|
-=
+|A\text{ only}|=
 |A|-|A\cap B|-|A\cap C|+|A\cap B\cap C|
 }
 $$
@@ -999,10 +996,8 @@ Example:
 7 vertices, 10 edges:
 
 $$
-{7\choose2}-10
-=
-21-10
-=
+{7\choose2}-10=
+21-10=
 11
 $$
 
@@ -1458,8 +1453,7 @@ $$
 
 $$
 \boxed{
-P(C_n,k)
-=
+P(C_n,k)=
 (k-1)^n+(-1)^n(k-1)
 }
 $$
@@ -1554,8 +1548,7 @@ This illustrates Euler's identity:
 
 $$
 \boxed{
-\text{partitions into distinct parts}
-=
+\text{partitions into distinct parts}=
 \text{partitions into odd parts}
 }
 $$
@@ -1711,20 +1704,20 @@ So 5 cannot be the order of a subgroup.
 
 If your exam were tomorrow, I'd prioritize these:
 
-1. \(\boxed{{}^nP_r=\frac{n!}{(n-r)!}}\)
-2. \(\boxed{{n\choose r}=\frac{n!}{r!(n-r)!}}\)
-3. \(\boxed{n!/(n_1!\cdots n_k!)}\)
-4. \(\boxed{(n-1)!}\) circular permutations
-5. \(\boxed{2^n}\) subsets
+1. $\boxed{{}^nP_r=\frac{n!}{(n-r)!}}$
+2. $\boxed{{n\choose r}=\frac{n!}{r!(n-r)!}}$
+3. $\boxed{n!/(n_1!\cdots n_k!)}$
+4. $\boxed{(n-1)!}$ circular permutations
+5. $\boxed{2^n}$ subsets
 6. **Three-set inclusion-exclusion**
 7. **De Morgan's laws**
-8. \(\boxed{P\to Q\equiv\neg P\lor Q}\)
+8. $\boxed{P\to Q\equiv\neg P\lor Q}$
 9. **Equivalence = RST**
 10. **Partial order = RAT**
-11. \(\boxed{\sum\deg(v)=2|E|}\)
+11. $\boxed{\sum\deg(v)=2|E|}$
 12. **Euler vs Hamilton**
-13. \(\boxed{{n+k-1\choose k-1}}\) stars and bars
-14. \(\boxed{C_n=\frac1{n+1}{2n\choose n}}\)
+13. $\boxed{{n+k-1\choose k-1}}$ stars and bars
+14. $\boxed{C_n=\frac1{n+1}{2n\choose n}}$
 15. Recurrences + characteristic equation + Big-O
 
 ---
@@ -1740,40 +1733,40 @@ Try it **without looking at the formula sheet first**.
 ### Q1
 From 12 students, 4 are selected and assigned to four different positions. How many arrangements are possible?
 
-A. \({12\choose4}\)  
-B. \(12^4\)  
-C. \({}^{12}P_4\)  
-D. \(4!\)
+A. ${12\choose4}$  
+B. $12^4$  
+C. ${}^{12}P_4$  
+D. $4!$
 
 ---
 
 ### Q2
 How many 6-character strings can be formed using the 26 English letters if repetition is allowed?
 
-A. \(26!\)  
-B. \(26^6\)  
-C. \({26\choose6}\)  
-D. \({}^{26}P_6\)
+A. $26!$  
+B. $26^6$  
+C. ${26\choose6}$  
+D. ${}^{26}P_6$
 
 ---
 
 ### Q3
 Seven people sit around a circular table. Rotations are considered identical. How many arrangements?
 
-A. \(7!\)  
-B. \(6!\)  
-C. \(7!/2\)  
-D. \(6!/2\)
+A. $7!$  
+B. $6!$  
+C. $7!/2$  
+D. $6!/2$
 
 ---
 
 ### Q4
 How many distinct arrangements can be made from the letters of **BANANA**?
 
-A. \(60\)  
-B. \(120\)  
-C. \(180\)  
-D. \(720\)
+A. $60$  
+B. $120$  
+C. $180$  
+D. $720$
 
 ---
 
@@ -1803,10 +1796,10 @@ How many students belong to at least one set?
 ### Q6
 If a set contains 8 elements, how many non-empty subsets does it have?
 
-A. \(256\)  
-B. \(255\)  
-C. \(64\)  
-D. \(128\)
+A. $256$  
+B. $255$  
+C. $64$  
+D. $128$
 
 ---
 
@@ -1819,10 +1812,10 @@ $$
 P\to Q?
 $$
 
-A. \(P\land Q\)  
-B. \(\neg P\lor Q\)  
-C. \(P\lor\neg Q\)  
-D. \(\neg P\land Q\)
+A. $P\land Q$  
+B. $\neg P\lor Q$  
+C. $P\lor\neg Q$  
+D. $\neg P\land Q$
 
 ---
 
@@ -1833,20 +1826,20 @@ $$
 P\to Q?
 $$
 
-A. \(Q\to P\)  
-B. \(\neg P\to\neg Q\)  
-C. \(\neg Q\to\neg P\)  
-D. \(P\leftrightarrow Q\)
+A. $Q\to P$  
+B. $\neg P\to\neg Q$  
+C. $\neg Q\to\neg P$  
+D. $P\leftrightarrow Q$
 
 ---
 
 ### Q9
 Which is a tautology?
 
-A. \(P\land\neg P\)  
-B. \(P\lor\neg P\)  
-C. \(P\to\neg P\)  
-D. \(P\land Q\)
+A. $P\land\neg P$  
+B. $P\lor\neg P$  
+C. $P\to\neg P$  
+D. $P\land Q$
 
 ---
 
@@ -1865,9 +1858,9 @@ $$
 
 what follows?
 
-A. \(P\)  
-B. \(Q\)  
-C. \(\neg P\)  
+A. $P$  
+B. $Q$  
+C. $\neg P$  
 D. Nothing
 
 ---
@@ -1875,13 +1868,13 @@ D. Nothing
 ## Section C: Relations and Functions
 
 ### Q11
-A relation \(R\) on \(A\) satisfies:
+A relation $R$ on $A$ satisfies:
 
 $$
 aRa
 $$
 
-for every \(a\in A\).
+for every $a\in A$.
 
 Which property is this?
 
@@ -1919,21 +1912,21 @@ $$
 f:A\to B
 $$
 
-where \(|A|=5\) and \(|B|=3\).
+where $|A|=5$ and $|B|=3$.
 
-Can \(f\) be injective?
+Can $f$ be injective?
 
 Explain briefly.
 
 ---
 
 ### Q15
-A function \(f:A\to B\) is surjective when:
+A function $f:A\to B$ is surjective when:
 
-A. Every element of \(A\) has exactly one image  
-B. No two elements of \(A\) have the same image  
-C. Every element of \(B\) is the image of at least one element of \(A\)  
-D. \(A=B\)
+A. Every element of $A$ has exactly one image  
+B. No two elements of $A$ have the same image  
+C. Every element of $B$ is the image of at least one element of $A$  
+D. $A=B$
 
 ---
 
@@ -1974,7 +1967,7 @@ $$
 C_4
 $$
 
-where \(C_n\) is the Catalan number?
+where $C_n$ is the Catalan number?
 
 ---
 
@@ -1993,7 +1986,7 @@ AB,BC,CD,DA,CE.
 $$
 
 ### Q21
-What is the degree of \(C\)?
+What is the degree of $C$?
 
 A. 1  
 B. 2  
@@ -2005,20 +1998,20 @@ D. 4
 ### Q22
 Which edge is a bridge?
 
-A. \(AB\)  
-B. \(BC\)  
-C. \(CD\)  
-D. \(CE\)
+A. $AB$  
+B. $BC$  
+C. $CD$  
+D. $CE$
 
 ---
 
 ### Q23
 Which vertex is a cut vertex?
 
-A. \(A\)  
-B. \(B\)  
-C. \(C\)  
-D. \(D\)
+A. $A$  
+B. $B$  
+C. $C$  
+D. $D$
 
 ---
 
@@ -2057,10 +2050,10 @@ D. An odd cycle
 ### Q27
 An item may be selected 0, 1, 2, 3, ... times. What generating-function factor represents it?
 
-A. \(1+x\)  
-B. \(x\)  
-C. \(\frac1{1-x}\)  
-D. \(\frac1{1-x^2}\)
+A. $1+x$  
+B. $x$  
+C. $\frac1{1-x}$  
+D. $\frac1{1-x^2}$
 
 ---
 
@@ -2073,10 +2066,10 @@ $$
 
 what is the characteristic equation?
 
-A. \(x^2+x+1=0\)  
-B. \(x^2-x-1=0\)  
-C. \(x^2-1=0\)  
-D. \(x-1=0\)
+A. $x^2+x+1=0$  
+B. $x^2-x-1=0$  
+C. $x^2-1=0$  
+D. $x-1=0$
 
 ---
 
@@ -2087,10 +2080,10 @@ $$
 T(n)=2T(n/2)+n
 $$
 
-A. \(O(n)\)  
-B. \(O(\log n)\)  
-C. \(O(n\log n)\)  
-D. \(O(2^n)\)
+A. $O(n)$  
+B. $O(\log n)$  
+C. $O(n\log n)$  
+D. $O(2^n)$
 
 ---
 
@@ -2125,13 +2118,13 @@ Try not to peek until you've finished. 🫣
 | 11 | **B** |
 | 12 | **B** |
 | 13 | **B** |
-| 14 | **No**, because \(|A|>|B|\) |
+| 14 | **No**, because $|A|>|B|$ |
 | 15 | **C** |
-| 16 | \(\boxed{{12\choose2}=66}\) |
-| 17 | \(\boxed{{9\choose2}=36}\) |
-| 18 | \(\boxed{D_4=9}\) |
+| 16 | $\boxed{{12\choose2}=66}$ |
+| 17 | $\boxed{{9\choose2}=36}$ |
+| 18 | $\boxed{D_4=9}$ |
 | 19 | **6** |
-| 20 | \(\boxed{14}\) |
+| 20 | $\boxed{14}$ |
 | 21 | **C = 3** |
 | 22 | **D = CE** |
 | 23 | **C** |
@@ -2261,7 +2254,7 @@ For example:
 
 > "Odd cycle?" → not bipartite.
 
-> "Coefficient of \(x^n\)?" → number of ways to make total \(n\).
+> "Coefficient of $x^n$?" → number of ways to make total $n$.
 
 > "Previous terms?" → recurrence.
 
@@ -2270,3 +2263,4 @@ For example:
 That pattern-recognition layer is probably your biggest scoring opportunity. The assignments repeatedly use exactly this style. DM
 
 If you can make those associations **automatic**, the exam becomes much less like wrestling with 30 unrelated monsters and much more like opening the right drawer in a very well-organized toolbox. 🧰
+
