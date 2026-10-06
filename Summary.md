@@ -819,8 +819,7 @@ $$
 Equivalent:
 
 $$
-D_n
-=
+D_n=
 n!
 \left(
 1-\frac1{1!}+\frac1{2!}-\cdots+\frac{(-1)^n}{n!}
