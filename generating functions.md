@@ -55,8 +55,7 @@ $$
 The important point is that **the coefficients are the information**.
 
 $$
-\frac{1}{1-x}
-=
+\frac{1}{1-x}=
 \underbrace{1}_{a_0}
 +\underbrace{x}_{a_1x}
 +\underbrace{x^2}_{a_2x^2}
