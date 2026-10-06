@@ -39,10 +39,10 @@ This is the part I'd keep beside you during your final revision.
 
 If a task has:
 
-- \(n_1\) choices for step 1
-- \(n_2\) choices for step 2
+- $n_1$ choices for step 1
+- $n_2$ choices for step 2
 - ...
-- \(n_k\) choices for step \(k\)
+- $n_k$ choices for step $k$
 
 then
 
@@ -117,7 +117,7 @@ Ask:
 
 # 3. Special Arrangement Formulas
 
-### All \(n\) distinct objects in a line
+### All $n$ distinct objects in a line
 
 $$
 \boxed{n!}
@@ -131,7 +131,7 @@ $$
 \boxed{2(n-1)!}
 $$
 
-For \(n=7\):
+For $n=7$:
 
 $$
 2(6!)
@@ -149,7 +149,7 @@ This exact "total minus bad arrangements" idea occurs in Assignment 1. DM
 
 ## Circular arrangements
 
-For \(n\) distinct objects around a circle, rotations considered identical:
+For $n$ distinct objects around a circle, rotations considered identical:
 
 $$
 \boxed{(n-1)!}
@@ -167,7 +167,7 @@ $$
 
 # 4. Repeated Objects
 
-If there are \(n\) objects with repetitions
+If there are $n$ objects with repetitions
 
 $$
 n_1,n_2,\ldots,n_k
@@ -238,7 +238,7 @@ $$
 }
 $$
 
-## Only \(A\)
+## Only $A$
 
 $$
 \boxed{
@@ -297,7 +297,7 @@ Notice the direction **reverses**.
 
 # 7. Number of Subsets
 
-For a set containing \(n\) elements:
+For a set containing $n$ elements:
 
 $$
 \boxed{2^n}
@@ -331,11 +331,11 @@ $$
 
 | Symbol | Meaning |
 |---|---|
-| \(\neg P\) | NOT |
-| \(P\land Q\) | AND |
-| \(P\lor Q\) | OR |
-| \(P\to Q\) | IF \(P\), THEN \(Q\) |
-| \(P\leftrightarrow Q\) | iff / equivalent |
+| $\neg P$ | NOT |
+| $P\land Q$ | AND |
+| $P\lor Q$ | OR |
+| $P\to Q$ | IF $P$, THEN $Q$ |
+| $P\leftrightarrow Q$ | iff / equivalent |
 
 Assignment 3 heavily tests translation between English rules and these logical forms. DM
 
@@ -373,7 +373,7 @@ The latter is the **converse**, and is not generally equivalent.
 
 ## Implication truth table
 
-| \(P\) | \(Q\) | \(P\to Q\) |
+| $P$ | $Q$ | $P\to Q$ |
 |---|---|---|
 | T | T | T |
 | T | F | **F** |
@@ -478,7 +478,7 @@ Assignment 3 directly tests Modus Ponens and Modus Tollens. DM
 
 # 11. Relations
 
-A relation on \(A\) is a subset of:
+A relation on $A$ is a subset of:
 
 $$
 \boxed{A\times A}
@@ -554,7 +554,7 @@ $$
 \boxed{a=b}
 $$
 
-For distinct \(a,b\), you cannot have both directions.
+For distinct $a,b$, you cannot have both directions.
 
 ### Transitive
 
@@ -630,7 +630,7 @@ $$
 
 means:
 
-> **Every element of \(A\) gets exactly one output in \(B\).**
+> **Every element of $A$ gets exactly one output in $B$.**
 
 ### Well-defined
 
@@ -844,13 +844,13 @@ $$
 D_4=9
 $$
 
-The assignment explicitly asks \(D_4=9\). DM
+The assignment explicitly asks $D_4=9$. DM
 
 ---
 
 # 19. Onto Functions
 
-Number of onto functions from an \(m\)-element set to an \(n\)-element set:
+Number of onto functions from an $m$-element set to an $n$-element set:
 
 $$
 \boxed{
@@ -890,7 +890,7 @@ Examples:
 
 ### Grid path
 
-From \((0,0)\) to \((n,n)\), unrestricted:
+From $(0,0)$ to $(n,n)$, unrestricted:
 
 $$
 \boxed{{2n\choose n}}
@@ -904,7 +904,7 @@ $$
 
 ### Polygon triangulation
 
-For an \(n\)-gon:
+For an $n$-gon:
 
 $$
 \boxed{C_{n-2}}
@@ -918,7 +918,7 @@ $$
 
 ### Dyck paths
 
-Balanced \(n\) pickup and \(n\) drop operations with drops never exceeding pickups:
+Balanced $n$ pickup and $n$ drop operations with drops never exceeding pickups:
 
 $$
 \boxed{C_n}
@@ -968,7 +968,7 @@ This is one of your **must-memorize formulas**. DM
 
 # 23. Complete Graph
 
-For \(n\) vertices:
+For $n$ vertices:
 
 $$
 \boxed{|E(K_n)|={n\choose2}=\frac{n(n-1)}2}
@@ -984,7 +984,7 @@ $$
 
 # 24. Complement Graph
 
-For a simple graph with \(n\) vertices:
+For a simple graph with $n$ vertices:
 
 $$
 \boxed{|E(G')|={n\choose2}-|E(G)|}
@@ -1054,7 +1054,7 @@ An edge whose removal increases the number of connected components.
 
 A vertex whose removal disconnects the graph.
 
-In the museum graph used in the assignment, \(CE\) is a bridge and \(C\) is a cut vertex. DM
+In the museum graph used in the assignment, $CE$ is a bridge and $C$ is a cut vertex. DM
 
 ---
 
@@ -1120,7 +1120,7 @@ $$
 \boxed{A_{ij}=1}
 $$
 
-if vertices \(i,j\) are adjacent.
+if vertices $i,j$ are adjacent.
 
 Otherwise:
 
@@ -1199,7 +1199,7 @@ $$
 
 That means:
 
-> The coefficient of \(x^n\) tells you how many ways produce total \(n\).
+> The coefficient of $x^n$ tells you how many ways produce total $n$.
 
 This is exactly how Assignment 9 introduces generating functions. DM
 
@@ -1207,7 +1207,7 @@ This is exactly how Assignment 9 introduces generating functions. DM
 
 ## Stars-and-bars connection
 
-If \(r\) identical units are distributed among \(k\) types with unlimited repetition:
+If $r$ identical units are distributed among $k$ types with unlimited repetition:
 
 $$
 \boxed{{r+k-1\choose k-1}}
@@ -1314,13 +1314,13 @@ $$
 \boxed{x^2-c_1x-c_2=0}
 $$
 
-If roots are \(r_1,r_2\):
+If roots are $r_1,r_2$:
 
 $$
 \boxed{a_n=Ar_1^n+Br_2^n}
 $$
 
-Constants \(A,B\) come from the initial conditions.
+Constants $A,B$ come from the initial conditions.
 
 For Fibonacci:
 
@@ -1396,7 +1396,7 @@ n!
 }
 $$
 
-For large \(n\).
+For large $n$.
 
 So:
 
@@ -1424,7 +1424,7 @@ $$
 \boxed{O(n^2)}
 $$
 
-Not \(O(3n^2)\) in simplified form.
+Not $O(3n^2)$ in simplified form.
 
 ---
 
@@ -1440,7 +1440,7 @@ P(K_n,k)=k(k-1)(k-2)\cdots(k-n+1)
 }
 $$
 
-### Path with \(n\) vertices
+### Path with $n$ vertices
 
 $$
 \boxed{
@@ -1448,7 +1448,7 @@ P(P_n,k)=k(k-1)^{n-1}
 }
 $$
 
-### Cycle with \(n\) vertices
+### Cycle with $n$ vertices
 
 $$
 \boxed{
@@ -1475,9 +1475,9 @@ $$
 
 # 39. Integer Partitions
 
-A partition of \(n\):
+A partition of $n$:
 
-> Write \(n\) as a sum of positive integers, where order does not matter.
+> Write $n$ as a sum of positive integers, where order does not matter.
 
 For 4:
 
@@ -1552,7 +1552,7 @@ $$
 }
 $$
 
-for every \(n\). DM
+for every $n$. DM
 
 ---
 
@@ -1587,7 +1587,7 @@ $$
 
 # 41. Groups
 
-A group \(G\) with operation \(*\) satisfies four axioms:
+A group $G$ with operation $*$ satisfies four axioms:
 
 ### 1. Closure
 
@@ -1603,7 +1603,7 @@ $$
 
 ### 3. Identity
 
-There exists \(e\):
+There exists $e$:
 
 $$
 \boxed{a*e=e*a=a}
@@ -1611,7 +1611,7 @@ $$
 
 ### 4. Inverse
 
-For every \(a\):
+For every $a$:
 
 $$
 \boxed{a*a^{-1}=a^{-1}*a=e}
@@ -1645,7 +1645,7 @@ $$
 \boxed{0}
 $$
 
-Inverse of \(a\):
+Inverse of $a$:
 
 $$
 \boxed{-a}
@@ -1675,13 +1675,13 @@ $$
 
 # 43. Lagrange's Theorem
 
-For a finite group \(G\):
+For a finite group $G$:
 
 $$
 \boxed{|H|\mid |G|}
 $$
 
-for every subgroup \(H\).
+for every subgroup $H$.
 
 Therefore, if:
 
