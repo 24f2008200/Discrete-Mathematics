@@ -65,10 +65,10 @@ You can move only right or up. There are $n$ right moves and $n$ up moves, givin
 
 - Unrestricted: any order of these moves is allowed.
 
-  $ \binom{2n}{n} $
+$$ \binom{2n}{n} $$
 - Restricted: the path must stay on or below the diagonal $y=x$.
 
-  $ C_n=\frac{1}{n+1}\binom{2n}{n} $
+$$ C_n=\frac{1}{n+1}\binom{2n}{n} $$
 
 Exam clue: a diagonal-boundary restriction changes the binomial count into a Catalan count.
 
